@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SelfLearnUnreal1.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{F80324E5-78E2-4F72-ACE5-EFA17510F290}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SelfLearnUnreal1.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SelfLearnUnreal1Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E4D00B4C-4094-43AD-BEF9-11B6665B461B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SelfLearnUnreal1">
+			<UniqueIdentifier>{47B66978-1592-4A54-AAE0-B743A5D7079B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SelfLearnUnreal1\SelfLearnUnreal1.Build.cs">
+			<Filter>Source\SelfLearnUnreal1</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SelfLearnUnreal1\SelfLearnUnreal1.cpp">
+			<Filter>Source\SelfLearnUnreal1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SelfLearnUnreal1\SelfLearnUnreal1.h">
+			<Filter>Source\SelfLearnUnreal1</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SelfLearnUnreal1\SelfLearnUnreal1GameModeBase.cpp">
+			<Filter>Source\SelfLearnUnreal1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SelfLearnUnreal1\SelfLearnUnreal1GameModeBase.h">
+			<Filter>Source\SelfLearnUnreal1</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
