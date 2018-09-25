@@ -21,7 +21,12 @@ void UPositionReport::BeginPlay()
 	Super::BeginPlay();
 
 	FString objectName = GetOwner()->GetName();
-	UE_LOG(LogTemp, Warning, TEXT("Posting report on chair : %s"),*objectName);
+	
+
+	FString objectPos = GetOwner()->GetTransform().GetLocation().ToString();
+		//GetOwner()->GetActorLocation().ToString();
+	 
+	UE_LOG(LogTemp, Warning, TEXT("Posting report on chair : %s Lcation : %s"),*objectName,*objectPos);
 	// ...
 	
 }

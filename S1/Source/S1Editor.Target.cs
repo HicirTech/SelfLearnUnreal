@@ -8,6 +8,8 @@ public class S1EditorTarget : TargetRules
 	public S1EditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
+        bUseUnityBuild = false;
+        bUsePCHFiles = false;
 
 		ExtraModuleNames.AddRange( new string[] { "S1" } );
 	}
